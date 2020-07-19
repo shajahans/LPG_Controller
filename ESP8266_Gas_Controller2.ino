@@ -49,7 +49,7 @@ Adafruit_PCD8544 display = Adafruit_PCD8544(14, 13, 3, 15, -1);
 #define Button  A0    // button B1 Set
 #define Solinoid  5 //Solinoid Valve
 
-#define MyApiKey "de28920a-22d1-420a-8a13-5f2094fdsagrt" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
+#define MyApiKey "de289dfg5-2fre-420a-8a54-5f2094fdsagrt" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
 #define MySSID "Shajahan" // TODO: Change to your Wifi network SSID
 #define MyWifiPassword "!ABCD@123#" // TODO: Change to your Wifi network password
 #define HEARTBEAT_INTERVAL 300000 // 5 Minutes 
@@ -101,7 +101,7 @@ void BuzzerEnable();
 int buttonValue;
 
 void turnOff(String deviceId) {
-   if (deviceId == "5ef32efa6733ac69e4810b98") // Device ID of Living Room Light
+   if (deviceId == "5ef32efa6733ac446gdg45e4sf567gt33dg5fg653") // Device ID of Living Room Light
    {  
      Serial.print("Turn off Device ID: ");
      Serial.println(deviceId);
